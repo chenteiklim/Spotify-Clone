@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href= "navbar.css">
+    <link rel="stylesheet" href="content.css">
+</head>
+<body>
+    <aside id="sidebar">
+        <div class="spotify">
+            <img class="spotify-icon" src="assets/spotify.png" alt="spotify">
+            <h4 class="spotify-text">Spotify</h4>
+        </div>
+        <div class="sidebar-items">
+            <div class="home">
+                <svg class="home-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                  </svg>   
+                <a class="home-link" href="#">Home</a>
+            </div>
+            <div class="search">
+                <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                  </svg>
+                <a class="search-link" href="#">Search</a>
+            </div>
+            <div class="library">
+                <img class="library-icon" src="assets/playlist-icon.png" alt="">
+                <a class="library-link" href="#">Your Library</a>
+            </div>
+            <div class="playList">
+                <img class=playList-icon src="assets/plus-icon.png" alt="">
+                <a class="playList-link" href="#">Create Playlist</a>
+            </div>
+            <div class="love">
+                <img class= love-icon src="assets/love-icon.jpg" alt="">
+                <a class="love-link" href="#">Liked Songs</a>
+            </div>
+        </div>  
+        
+        <div class="footer">
+            <a class="cookies" href="#">Cookies</a>
+            <a class="privacy" href="#">Privacy</a>
+        </div>
+        
+    </aside>
+
+    <nav id="navbar">
+        <div class="left">
+            <span class="mdi mdi-chevron-left mdi-36px "></span>
+            <span class="mdi mdi-chevron-right mdi-36px"></span>
+        </div>
+        <div class="right">
+            <button class="sign-up-btn">SIGN UP</button>
+            <button class="login-btn">LOG IN</button>
+        </div>
+    </nav>
+
+    <main id="content">
+        <section id="your-top-items">
+            <h1 class="title"></h1>
+            <h3 class="subtitle"></h3>
+            <div class="card-wrapper"></div>
+        </section>
+
+        <section id="new-releases">
+            <h1 class="title"></h1>
+            <h3 class="subtitle"></h3>
+            <div class="card-wrapper"></div>
+        </section>
+
+        <section id="featured-playlists">
+            <h1 class="title"></h1>
+            <h3 class="subtitle"></h3>
+            <div class="card-wrapper"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+
+       
+        
+    
+</body>
+</html>

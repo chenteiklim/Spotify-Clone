@@ -1,0 +1,172 @@
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 248px;
+    height: 100%;
+    background: #000;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.spotify{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    column-gap: 5px;
+}
+
+.spotify-icon{
+    width: 50px;
+    border-radius: 50%;
+}
+.spotify-text{
+    font-size: 24px;
+    color: white;
+}
+
+
+
+.home{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.home-icon{
+    width: 28px;
+    padding-left: 20px;
+}
+
+.home-link{
+    padding-left: 10px;
+    text-decoration: none;
+}
+.home-link:hover{
+    color: lightgreen;
+    transition: all 0.5s ease;
+
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.search-icon{
+    width: 28px;
+    padding-left: 20px;
+}
+
+.search-icon:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+.search-link{
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.search-link:hover{
+    color: lightgreen;
+    transition: all 0.5s ease;
+}
+
+
+.library{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.library-icon{
+    width: 24px;
+    padding-left: 20px;
+}
+
+.library-link{
+text-decoration: none;
+padding-left: 10px;
+}
+
+.library-link:hover{
+    color: lightgreen;
+    transition: all 0.5s ease;
+
+}
+
+
+.playList{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.playList-icon{
+    margin-top: 20px;
+   width: 23px; 
+   padding-left: 20px;
+}
+
+.playList-link{
+    margin-top: 20px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.playList-link:hover{
+    color: lightgreen;
+    transition: all 0.5s ease;
+
+}
+
+
+.love{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.love-icon{
+    width: 26px;
+    padding-left: 20px;
+}
+
+.love-link{
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.love-link:hover{
+    color: lightgreen;
+    transition: all 0.5s ease;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 280px;
+}
+
+.cookies{
+    font-size: 12px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.privacy{
+    font-size: 12px;
+    padding-left: 20px;
+    padding-top: 15px;
+    text-decoration: none;
+}
+
+
+
+
+
+
